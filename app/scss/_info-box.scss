@@ -1,0 +1,33 @@
+.sm-box {
+  // display: flex;
+  // justify-content: space-between;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    border: 1px solid $text-lighter;
+    padding: 4rem 3rem;
+
+    @media screen and (min-width: 576px) {
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+  &__icon {
+    margin-right: 1.6rem;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+
+    &--gold {
+      color: $gold;
+      font-weight: 300;
+    }
+  }
+
+}

@@ -1,0 +1,37 @@
+.footer-top {
+  background-color: $light-black;
+  padding: 4rem 0;
+
+
+  &__content {
+    @media screen and (min-width: 576px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.nav {
+  @media screen and (min-width: 576px) {
+    margin-top: 0;
+  }
+}
+
+.footer-bottom {
+  &__content {
+    background-color: $black;
+    padding: 4rem 0;
+
+    p,
+    a {
+      color: $text-lighter;
+      line-height: 1.5;
+      font-size: 1.2rem;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}

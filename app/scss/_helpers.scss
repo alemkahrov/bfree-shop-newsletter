@@ -1,0 +1,118 @@
+// Aligning Elements
+.text-center {
+  text-align: center;
+}
+
+// Text colors
+.text-darker {
+  color: rgba($black, 0.6);
+}
+
+.text-lighter {
+  color: rgba($white, 0.6);
+}
+
+// Background Image
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.list-bare {
+  padding: 0;
+  list-style: none;
+}
+
+// Width and Height
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+// Section Padding
+.section-padding {
+  padding: 4rem 0;
+}
+
+// Flex Grid
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+
+  @media screen and (min-width: 480px) {
+    flex: 1;
+  }
+}
+
+// .padding-0>div:nth-child(2) {
+//   padding: 0 5px;
+// }
+
+// .padding-0>div:nth-child(1) {
+//   padding-right: 5px;
+// }
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.mb-30 {
+  margin-bottom: 3rem;
+}
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.mb-20 {
+  margin-top: 2rem;
+}
+
+.mb-30 {
+  margin-top: 3rem;
+}
+
+.mb-40 {
+  margin-top: 4rem;
+}
+
+.my-50 {
+  margin: 5rem 0;
+}
+
+.pr-xs-60 {
+  @media screen and (min-width: 576px) {
+    padding-right: 6rem !important;
+  }
+}
+
+// .pr-sm-100 {
+//   @media screen and (min-width: 768px) {
+//     padding-right: 10rem !important;
+//   }
+// }
+
+.pl-xs-60 {
+  @media screen and (min-width: 576px) {
+    padding-left: 6rem !important;
+  }
+}
+
+// .pl-sm-80 {
+//   @media screen and (min-width: 768px) {
+//     padding-left: 8rem !important;
+//   }
+// }

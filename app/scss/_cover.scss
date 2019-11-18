@@ -1,0 +1,61 @@
+.cover {
+  position: relative;
+  z-index: 1;
+  background: url('/app/images/cover-bg_1.jpg');
+  min-height: 40rem;
+  padding: 4rem 1.4rem;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+
+  &__overlay {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba($gold, 0.8);
+    z-index: -1;
+  }
+
+  &__white-box {
+    background-color: $white;
+    padding: 4rem 3rem;
+  }
+}
+
+.cover__content {
+  color: $black;
+
+  h2 {
+    font-size: 2.6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+
+    @media screen and (min-width: 576px) {
+      font-size: 3rem;
+    }
+  }
+
+  h1 {
+    font-size: 3.8rem;
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+
+    @media screen and (min-width: 576px) {
+      font-size: 4.4rem;
+    }
+  }
+
+  p.sub-heading {
+    line-height: 1.5;
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+    color: $text-darker;
+  }
+}

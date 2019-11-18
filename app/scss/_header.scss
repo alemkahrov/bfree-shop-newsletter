@@ -1,0 +1,49 @@
+.header-top {
+  background-color: $light-black;
+  width: 100%;
+  padding: 1rem 0;
+
+  &__content {
+    p {
+      color: $text-lighter;
+      padding: 0;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.header-bottom {
+  background-color: $black;
+  padding: 2.6em 0;
+
+  &__content {
+    @media screen and (min-width: 576px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.nav {
+  list-style: none;
+  margin-top: 2rem;
+
+  @media screen and (min-width: 576px) {
+    margin-top: 0;
+  }
+
+  &__icon {
+    color: $text-lighter;
+    margin-left: 2rem;
+
+    i {
+      font-size: 2rem;
+      transition: color 400ms ease;
+
+      &:hover {
+        color: $gold;
+      }
+    }
+  }
+}
